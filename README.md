@@ -1,5 +1,5 @@
 # wizserver_unlimited_docker
-为知笔记docker版，无用户限制
+为知笔记docker版，自动学习无用户限制。
 
 ## ## 学习原理
 
