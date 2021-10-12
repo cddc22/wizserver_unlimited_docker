@@ -1,0 +1,12 @@
+version: '2'
+services:
+ web:
+   container_name: wiz
+   build: .
+   restart: always
+   ports:
+    - "80:80"
+    - "9269:9269/udp"
+   volumes:
+    - ~/wizdata:/wiz/storage
+    - /etc/localtime:/etc/localtime
