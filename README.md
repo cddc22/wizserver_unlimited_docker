@@ -19,7 +19,6 @@ docker-compose up -d
 `cd`到`wizserver_unlimited_docker`目录，然后执行如下命令：
 
 ```bash
-docker-compose down -v
-docker-compose build
-docker-compose up -d
+docker-compose stop
+docker-compose up -d --build
 ```
