@@ -7,16 +7,16 @@ https://bbs.pediy.com/thread-268301.htm
 
 ## ## 使用
 
-`cd`到`wizserver_unlimited_docke`目录，然后执行如下命令：
-
 ```bash
+git clone https://github.com/fengwenhua/wizserver_unlimited_docker.git
+
 docker-compose build
 docker-compose up -d
 ```
 
 ## 更新
 
-`cd`到`wizserver_unlimited_docke`目录，然后执行如下命令：
+`cd`到`wizserver_unlimited_docker`目录，然后执行如下命令：
 
 ```bash
 docker-compose down -v
