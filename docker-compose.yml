@@ -11,5 +11,6 @@ services:
     - ~/wizdata:/wiz/storage
     - /etc/localtime:/etc/localtime
     
- volumes:wizdata
+ volumes:
+  wizdata
   
