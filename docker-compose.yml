@@ -7,4 +7,9 @@ services:
    ports:
     - "80:80"
     - "9269:9269/udp"
-   
+   volumes:
+    - ~/wizdata:/wiz/storage
+    - /etc/localtime:/etc/localtime
+    
+volumes:
+  wizdata:
