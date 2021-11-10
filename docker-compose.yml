@@ -10,3 +10,6 @@ services:
    volumes:
     - ~/wizdata:/wiz/storage
     - /etc/localtime:/etc/localtime
+    
+ volumes:wizdata
+  
