@@ -12,4 +12,4 @@ services:
     - /etc/localtime:/etc/localtime
     
 volumes:
-  wizdata:
+  web:
